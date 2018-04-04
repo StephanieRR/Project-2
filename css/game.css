@@ -1,0 +1,38 @@
+.background    { background: rgb(38, 38, 115);
+                 background: linear-gradient(#262673 , #29293d);
+                 background: url(http://lpc.opengameart.org/sites/default/files/oga-textures/tileable6c.png);
+                 background-image: linear-gradient(to bottom, rgba(41,41,61,0.8) 0%,rgba(153,0,95,0.8) 100%), url(http://lpc.opengameart.org/sites/default/files/oga-textures/tileable6c.png);
+                 background-repeat: repeat-x;
+                 background-size: auto;
+                 table-layout: fixed;
+                 border-spacing: 0;   }
+
+
+.background td { padding: 0;          }
+.lava          { background: rgb(255, 0, 85); }
+.wall          { background: #666699;
+                background: linear-gradient(#666699 , #0d0d26);}
+.floater       { background: #00cccc;   }
+.floaterBg     { background: rgb(255, 102, 204);}
+.ice    { background: #33ccff;   }
+
+.actor  { position: absolute;  }
+.player { background: rgb(254, 255, 189); }
+.coin   {background: rgb(204, 102, 255); }
+.mini   {background: rgb(204, 255, 51); }
+.big    {background: rgb(153, 255, 51); }
+.teleport {background: rgb(102, 0, 255);}
+
+.game {
+  overflow: hidden;
+  max-width: 600px;
+  max-height: 450px;
+  position: relative;
+}
+
+.lost .player {
+  background: rgb(245, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}

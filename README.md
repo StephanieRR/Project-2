@@ -1,2 +1,2 @@
-# Project-2
-Platformer Game
+# JSPlatformer
+JS Platformer for DIG 3480C
